@@ -1,65 +1,63 @@
-<p align="center">
+## osTicket - Prerequisites and Installation
 
-<img src="https://i.imgur.com/Clzj7Xs.png" alt="osTicket logo"/>
+### Prerequisites
 
-</p>
+Before you install osTicket, make sure your environment meets the following requirements:
 
-<h1>osTicket - Prerequisites and Installation</h1>
+1. **Web Server:** Apache or IIS
+2. **PHP:** Version 8.0 or higher
+3. **Database:** MySQL 5.5 (or later) or MariaDB
+4. **PHP Extensions:** Ensure the following extensions are enabled:
+   - mysqli
+   - gd
+   - gettext
+   - mbstring
+   - xml
+   - json
+   - fileinfo
+5. **Access Permissions:** Proper read, write, and execute permissions on osTicket directories
 
-This tutorial outlines the prerequisites and installation of the open-source help desk ticketing system osTicket.<br />
+---
 
-<h2>Environments and Technologies Used</h2>
+### Installation Steps
 
-- Microsoft Azure (Virtual Machines/Compute)
+1. **Download osTicket:**
 
-- Remote Desktop
+   - Visit the official osTicket website: https://osticket.com/download/ and download the latest stable release.
 
-- Internet Information Services (IIS)
+2. **Upload Files:**
 
-<h2>Operating Systems Used </h2>
+   - Extract the downloaded osTicket package and upload its contents to your web server’s root directory or a subdirectory of your choice.
 
-- Windows 10</b> (21H2)
+3. **Set Permissions:**
 
-<h2>List of Prerequisites</h2>
+   - Ensure the following directories are writable:
+     - `include/ost-config.php`
+     - `attachments/`
+     - `logs/`
 
-- Item 1
+4. **Create Database:**
 
-- Item 2
+   - Use your database management tool (like phpMyAdmin) to create a new database for osTicket.
 
-- Item 3
+5. **Run Installer:**
 
-- Item 4
+   - Navigate to the URL where you uploaded osTicket (e.g., `http://yourdomain.com/support/`) and follow the on-screen installation wizard.
 
-- Item 5
+6. **Configure Settings:**
 
-<h2>Installation Steps</h2>
+   - Enter the required information:
+     - Database details (host, name, username, password)
+     - Admin user account details
 
-<p>
+7. **Complete Installation:**
 
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
+   - Once the installation finishes, remove or rename the `setup/` directory for security purposes.
 
-</p>
+8. **Access osTicket:**
 
-<p>
+   - Admin Panel: `http://yourdomain.com/support/scp/`
+   - Client Portal: `http://yourdomain.com/support/`
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Congratulations! osTicket is now installed and ready to use.
 
-</p>
-
-<br />
-
-<p>
-
-<img src="https://i.imgur.com/DJmEXEB.png" height="80%" width="80%" alt="Disk Sanitization Steps"/>
-
-</p>
-
-<p>
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-
-</p>
-
-<br />
-
-<p>
