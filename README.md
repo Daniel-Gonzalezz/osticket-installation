@@ -24,13 +24,14 @@ Before you install osTicket, make sure your environment meets the following requ
 1. **Download osTicket:**
 
    - Visit the official osTicket website: https://osticket.com/download/ and download the latest stable release.
-![image](https://github.com/user-attachments/assets/16bdb379-8a99-42e3-8eb1-b459368d3ad0)
+![image](https://github.com/user-attachments/assets/f4261365-1d0c-44ea-8ba7-07fadd147c5b)
+
 
 2. **Upload Files:**
 
    - Extract the downloaded osTicket package and upload its contents to your web server’s root directory or a subdirectory of your choice.
-     ![image](https://github.com/user-attachments/assets/633f1352-f913-4535-bd21-e6ef5e06185f)
-     ![image](https://github.com/user-attachments/assets/921ce45c-6d1c-4fb1-b3fc-8ca7d5674b32)
+   ![image](https://github.com/user-attachments/assets/5fd42889-15eb-4ed4-ad97-28e9504a472c)
+
 
 
 
