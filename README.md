@@ -41,20 +41,26 @@ Before you install osTicket, make sure your environment meets the following requ
      - `include/ost-config.php`
      - `attachments/`
      - `logs/`
+       
+![image](https://github.com/user-attachments/assets/4301a47b-d1de-4a61-b348-7ce7768a2265)
 
 4. **Create Database:**
 
    - Use your database management tool (like phpMyAdmin) to create a new database for osTicket.
 
 5. **Run Installer:**
-
-   - Navigate to the URL where you uploaded osTicket (e.g., `http://yourdomain.com/support/`) and follow the on-screen installation wizard.
+ - Navigate to the URL where you uploaded osTicket (e.g., `http://yourdomain.com/support/`) and follow the on-screen installation wizard.
+   
+![image](https://github.com/user-attachments/assets/59292973-16f2-4e4c-9e1b-9fde559a54c2)
 
 6. **Configure Settings:**
 
    - Enter the required information:
      - Database details (host, name, username, password)
      - Admin user account details
+       
+![image](https://github.com/user-attachments/assets/a29eba66-1de4-43bc-a355-1181f35c66e1)
+
 
 7. **Complete Installation:**
 
