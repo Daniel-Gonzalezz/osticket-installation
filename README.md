@@ -24,6 +24,7 @@ Before you install osTicket, make sure your environment meets the following requ
 1. **Download osTicket:**
 
    - Visit the official osTicket website: https://osticket.com/download/ and download the latest stable release.
+![image](https://github.com/user-attachments/assets/16bdb379-8a99-42e3-8eb1-b459368d3ad0)
 
 2. **Upload Files:**
 
