@@ -29,6 +29,10 @@ Before you install osTicket, make sure your environment meets the following requ
 2. **Upload Files:**
 
    - Extract the downloaded osTicket package and upload its contents to your web server’s root directory or a subdirectory of your choice.
+     ![image](https://github.com/user-attachments/assets/633f1352-f913-4535-bd21-e6ef5e06185f)
+     ![image](https://github.com/user-attachments/assets/921ce45c-6d1c-4fb1-b3fc-8ca7d5674b32)
+
+
 
 3. **Set Permissions:**
 
